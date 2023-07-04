@@ -19,7 +19,7 @@ pipeline{
         }
         stage('package'){
             steps{
-                echo 'this is the package job'
+                echo 'this is a package job'
                 sh 'npm run package'
                
             }
